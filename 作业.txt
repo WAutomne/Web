@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+#grad1 {
+  height: 200px;
+  background-color: blue; /* 针对不支持渐变的浏览器 */
+  background-image: linear-gradient(blue, green);
+}
+
+#p1 {background-color:rgba(255,0,255,0.3);}
+
+h1 {
+  text-shadow: 5px 5px;
+  font-size: 100px;
+  line-height: 100px;
+}
+
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+
+div p2 {
+  background-color: yellow;
+  font-size: 30px;
+  line-height: 50px;
+}
+</style>
+</head>
+<body>
+
+<div class="center"><p2>作业(居中+组合器+单位)</p2>
+</div>
+<div id="grad1"><h1>渐变色+阴影</h1></div>
+<p id="p1">伪元素伪元素伪元素伪元素伪元素伪元素伪元素伪元素伪元素伪元素伪元素伪元素伪元素伪元素伪元素伪元素伪元素伪元素伪元素伪元素</p>
+
+
+
+
+</body>
+</html>
+
+
